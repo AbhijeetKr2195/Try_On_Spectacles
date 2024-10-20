@@ -5,7 +5,7 @@ import numpy as np
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
-sunglasses_image = 'sunglasses.png'
+sunglasses_image = 'sunglasses1.png'
 
 # Load the sunglasses image with alpha channel
 sunglasses = cv2.imread(sunglasses_image, cv2.IMREAD_UNCHANGED)
